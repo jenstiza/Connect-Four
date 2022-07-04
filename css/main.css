@@ -1,49 +1,69 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-image: url("https://w.wallhaven.cc/full/2e/wallhaven-2evx9g.jpg");
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  box-sizing: border-box;
+}
+
+.gameName {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+h1{
+    font-size: 2rem;
+    margin-left: 30px;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  #markers {
-    display: grid;
-    grid-template-columns: repeat(5, 16vmin);
-    gap: 2vmin;
-    margin-top: 2vmin;
-  }
-  
-  #markers > div {
-    height: 16vmin;
-    border-width: 8vmin;
-    border-style: solid;
-    border-color: lightgray transparent transparent;
-    transform: scale(0.7);
-  }
-  
-  #markers > div:hover {
-    transform: scale(0.9);
-    transition: transform 150ms ease-in;
-    border-top-color: darkgray;
-  }
-  
-  #board {
-    display: grid;
-    grid-template-columns: repeat(5, 16vmin);
-    grid-template-rows: repeat(4, 16vmin);
-    gap: 2vmin;
-    margin-top: -3vmin;
-  }
-  
-  #board > div {
-    border-radius: 50%;
-    border: 0.1vmin solid grey;
-  }
-  
+    justify-content: center;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+
+ body {
+  background-image: url("https://w.wallhaven.cc/full/2e/wallhaven-2evx9g.jpg");
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#markers {
+  display: grid;
+  grid-template-columns: repeat(5, 16vmin);
+  gap: 2vmin;
+  margin-top: 2vmin;
+}
+
+#markers > div {
+  height: 16vmin;
+  border-width: 8vmin;
+  border-style: solid;
+  border-color: lightgray transparent transparent;
+  transform: scale(0.7);
+}
+
+#markers > div:hover {
+  transform: scale(0.9);
+  transition: transform 150ms ease-in;
+  border-top-color: darkgray;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(5, 16vmin);
+  grid-template-rows: repeat(4, 16vmin);
+  gap: 2vmin;
+  margin-top: -3vmin;
+}
+
+#board > div {
+  border-radius: 50%;
+  border: 0.1vmin solid grey;
+}
