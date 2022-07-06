@@ -61,5 +61,5 @@ const colors = {
     render();
   }
 
-
+//win functions vertical horizontal diagonal
 
