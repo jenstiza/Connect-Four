@@ -2,7 +2,7 @@
 const COLORS = {
   '1':  'Cyan',
   '-1': 'Fuchsia',
-  '0': ' '
+  '0': "rgba(0, 0, 0, 0)"
 };
 
 // /*----- app's state (variables) -----*/
@@ -10,17 +10,21 @@ let board;
 let turn; 
 let gameStatus; 
 let winner = null;
+
  
 // /*----- cached element references -----*/
 const markerEls = [...document.querySelectorAll("#markers > div")];
 const replayBtn = document.querySelector("button");
 const messageEl = document.querySelector("h2");
 
+
 // /*----- event listeners -----*/
-document.getElementById("markers").addEventListener("click", handleChoice);
+document.getElementById("markers").addEventListener("click",  handleChoice);
 replayBtn.addEventListener("click", init);
 
 /*----- functions -----*/
+
+
 init();
 
 function init() {
@@ -171,9 +175,9 @@ function getGameStatus() {
 
 function renderMarkers () {
     markerEls.forEach(function(markerEl, colIdx) {
-        markerEl.style.visibility = board[colIdx].includes(0) ? 'visible' : 'hidden'; 
-        markerEl.style.visibility = gameStatus === 'w' ? 'hidden' : 'visible';
+       markerEl.style.visibility = board[colIdx].includes(0) ? 'visible' : 'hidden'; 
+       markerEl.style.visibility = gameStatus === 'w' ? 'hidden' : 'visible';
     });
-
+ 
 };
 
