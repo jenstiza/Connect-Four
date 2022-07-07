@@ -53,8 +53,8 @@ body {
 }
 
 #markers > div {
-  height: 12vmin;
-  border-width: 6vmin;
+  height: 12vh;
+  border-width: 6vh;
   border-style: solid;
   border-color: rgb(255, 66, 242) transparent transparent;
   transform: scale(0.7);
@@ -68,9 +68,9 @@ body {
 
 #board {
   display: grid;
-  grid-template-columns: repeat(7, 11vmin);
-  grid-template-rows: repeat(6, 11vmin);
-  gap: 2vmin;
+  grid-template-columns: repeat(7, 11vh);
+  grid-template-rows: repeat(6, 11vh);
+  gap: 2vh;
   margin-top: -3vmin;
 }
 
