@@ -5,11 +5,11 @@ This version of Connect 4 is made using HTML/CSS & Javascript
 
 # Preview #
 
-[Start Board](https://i.imgur.com/79oFVmZ.jpg)
-[Tie Game](https://i.imgur.com/O0Pha9T.jpg)
-[Player 1 Win](https://i.imgur.com/o9ALzw8.jpg)
-[Player 2 Win](https://i.imgur.com/ghTIkUj.jpg)
-[Wire Frame](https://i.imgur.com/JE43Ahs.jpg)
+![Start Board](https://i.imgur.com/79oFVmZ.jpg)
+![Tie Game](https://i.imgur.com/O0Pha9T.jpg)
+![Player 1 Win](https://i.imgur.com/o9ALzw8.jpg)
+![Player 2 Win](https://i.imgur.com/ghTIkUj.jpg)
+![Wire Frame](https://i.imgur.com/JE43Ahs.jpg)
 
 # Getting Started #
 
