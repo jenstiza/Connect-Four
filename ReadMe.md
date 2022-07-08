@@ -5,11 +5,11 @@ This version of Connect 4 is made using HTML/CSS & Javascript
 
 Preview:
 
-![Screenshot of game](/home/jennifer/code/Project/preview.jpg)
+![Screenshot](home/jennifer/code/Project/preview.jpg)
 
 Getting Started:
 
-[Click Me to play!]https://jenstiza.github.io/Connect-Four/
+[Link to Game](https://jenstiza.github.io/Connect-Four/)
 
 How to Play:
     - On your turn, drop one of your checkers down any of the slots in the top of the board. 
