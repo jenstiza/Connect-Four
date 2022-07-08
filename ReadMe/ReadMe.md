@@ -9,7 +9,7 @@ Preview:
 
 Getting Started:
 
-https://github.com/jenstiza/Connect-Four.git
+https://jenstiza.github.io/Connect-Four/
 
 How to Play:
     - On your turn, drop one of your checkers down any of the slots in the top of the board. 
