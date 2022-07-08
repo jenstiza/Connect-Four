@@ -5,7 +5,7 @@ This version of Connect 4 is made using HTML/CSS & Javascript
 
 Preview:
 
-![](vscode-remote://wsl%2Bubuntu/home/jennifer/code/Project/ReadMe/preview.jpg)
+![This is an image](vscode-remote://wsl%2Bubuntu/home/jennifer/code/Project/ReadMe/preview.jpg)
 
 Getting Started:
 
@@ -20,3 +20,4 @@ How to Play:
     -being able to choose your own checker color
     -add music
     -running score for multiple rounds
+    
