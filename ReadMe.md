@@ -20,8 +20,8 @@ This version of Connect 4 is made using HTML/CSS & Javascript
     - Play alternates with the other player until you or player 2 gets 4 checkers of your color in a row. The four in a row can be horizontal, vertical or diagonal!
 
 # Next Steps #
-        *Be able to choose between player vs computer or player vs. player
-        *being able to choose your own checker color
-        *add music
-        *running score for multiple rounds
+        - [ ] Be able to choose between player vs computer or player vs. player
+        - [ ] being able to choose your own checker color
+        - [ ] add music
+        - [ ] running score for multiple rounds
     
